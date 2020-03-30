@@ -1,0 +1,65 @@
+.main-post h4{
+    font-weight: 700;
+    text-transform: capitalize;
+    
+}
+.font-bold-600{
+    font-weight: 700;
+}
+.command-post,.bg-light-green{
+    background: #19c5d1;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.autor{
+    border: 2px solid rgba(0,0,0,0.04);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 1.3rem;
+}
+.autor img{
+    width: 10%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+.img-round{
+    border-radius: 50%;
+}
+.autor p{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0.7rem;
+}
+.autor-social-link ul{
+    text-align: center;
+    list-style: none;
+}
+.autor-social-link ul li{
+    margin-top: 1rem;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.commands small{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.commands img{
+    width: 7%;
+}
+.commands p{
+    font-weight: 500;
+    font-size: 9px;
+    display: inline;
+}
+.replay{
+    color: #34c6db;
+}
+.command-box p{
+    font-size: 13px;
+    color: #333;
+}

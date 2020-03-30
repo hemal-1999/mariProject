@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    z-index: 0;
+    background-image: url("../images/wide-product.jpg");
+    height:65vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header::after{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    content: "";
+    background: rgba(0,0,0,0.2);
+    z-index: -1;
+}
+h1 span.sub-company-name{
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
+h1 span.main-company-name{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+.header-content small{
+    margin-top: 10%; transform: translateX(-30%)
+}
+.header-content big{
+    width: 50%;margin: auto;
+}
+
+/*products*/
+.product-hover-content{
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    top: 20%;
+    transform: translateX(-30%);
+}
+.product-hover-content{
+    visibility: hidden;
+}
+.product-box:hover .product-hover-content{
+    visibility: visible;
+}
+.product-hover-content p{
+    font-weight: 700;
+}
+
+
+/*
+===========================================
+                Progress
+===========================================
+*/
+#progress-counter{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+#progress-item-icon{
+    color: #38C172;
+}
+#progress-number{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+}
+#progress{
+    background-image: url("../images/progress-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#progress-item{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+/*===========================================
+                Footer
+===========================================
+*/
+
+#main-footer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+#main-footer ul{
+    list-style-type: none;
+    text-transform:uppercase;
+    border-right: 0.5px solid #fff;
+}
+#main-footer ul li{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#main-footer ul li:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+#footer ul li a{
+    font-size: 17px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#footer ul li a:hover{
+    text-decoration: none;
+}
+#footer ul li a i{
+    color:#fff;
+}
+#footer ul{
+    list-style: none;
+}
+#social-link{
+    background: #000;
+}
+p.text-center{
+    margin-bottom: 15px;
+}

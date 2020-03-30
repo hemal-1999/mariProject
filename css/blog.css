@@ -1,0 +1,9 @@
+.font-weight-600{
+	font-weight: 600;
+}
+.view-details span{
+	color: #19c5d1;
+}
+.view-details:hover{
+	text-decoration: none;
+}
